@@ -5,10 +5,8 @@ Library to implement the Bottom Navigation component from Material Design guidel
 ## Demo
 <img src="https://raw.githubusercontent.com/aurelhubert/ahbottomnavigation/master/demo1.gif" width="208" height="368" /> <img src="https://raw.githubusercontent.com/aurelhubert/ahbottomnavigation/master/demo2.gif" width="208" height="368" /> <img src="https://raw.githubusercontent.com/aurelhubert/ahbottomnavigation/master/demo3.gif" width="208" height="368" /> <img src="https://raw.githubusercontent.com/aurelhubert/ahbottomnavigation/master/demo4.gif" width="208" height="368" />
 
-## What's new (2.0.5) - [Changelog](https://github.com/aurelhubert/ahbottomnavigation/blob/master/CHANGELOG.md)
-* Add `setTitleTextSizeInSp(float activeSize, float inactiveSize)`
-* Update selected item background for API >= 21
-* Allow for the disabling of sound effects
+## What's new (2.0.6)
+* Added long tab listener on bottom navigation item
 
 ## Features
 * Follow the bottom navigation guidelines (https://www.google.com/design/spec/components/bottom-navigation.html)
@@ -22,8 +20,13 @@ Library to implement the Bottom Navigation component from Material Design guidel
 
 ### Gradle
 ```groovy
+repositories {
+    maven { url 'http://jitpack.io' }
+}
+```
+```groovy
 dependencies {
-    compile 'com.aurelhubert:ahbottomnavigation:2.0.5'
+    compile 'com.github.wupdigital:ahbottomnavigation:master-SNAPSHOT'
 }
 ```
 ### XML
